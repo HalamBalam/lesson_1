@@ -3,7 +3,7 @@ a = gets.to_f
 b = gets.to_f
 c = gets.to_f
 
-D = b**2.0 - 4.0 * a * c
+D = b**2 - 4.0 * a * c
 
 if D > 0
   x1 = (-b + Math.sqrt(D)) / (2.0 * a)
